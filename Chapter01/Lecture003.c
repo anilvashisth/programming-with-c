@@ -1,6 +1,9 @@
+//Lecture 3 ASCII Value of English Alphabet
 #include<stdio.h>
 int main(){
-printf("Welcome to all C Learner,this is lecture 3");
-
-  return 0;
+    char ch;
+    printf("Write an English Alphabet:");
+    scanf("%c",&ch);
+    printf("The ascii value is %c=%d",ch,ch);
+    return 0;
 }
