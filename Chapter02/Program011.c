@@ -16,7 +16,7 @@ int main(){
     tot=(qty*rate)-(qty*rate*dis/100);
         //print("Enjoy the shopping");
     //else
-    printf("Total Expence with discount : %f",tot);
+    printf("Total Expence after Discount : %f",tot);
 
     return 0;
 }
