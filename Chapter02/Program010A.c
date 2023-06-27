@@ -3,7 +3,7 @@
 
 int main(){
     int n , reverse=0,reminder;
-    printf("Enter a five digit no :");
+    printf("Enter a Five Digit No :");
     scanf("%d",&n);
     while(n!=0){
         reminder=n%10;
