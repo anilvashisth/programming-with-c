@@ -4,6 +4,6 @@ int main(){
     char ch;
     printf("Write an English Alphabet:");
     scanf("%c",&ch);
-    printf("The ascii value is %c=%d",ch,ch);
+    printf("The ASCII value of the Alphabet is: %c=%d",ch,ch);
     return 0;
 }
